@@ -1,0 +1,12 @@
+import pandas as pd
+import io
+
+conteudo = """sensor_id,temperatura,pressao,status
+S1,23.5,1012,OK
+S2,NA,1015,Falha
+S3,24.1,-,OK
+S4,22.8,1010,OK"""
+
+df = pd.read_csv(io.StringIO(conteudo), na_values=['NA', '-'])
+
+df.info()

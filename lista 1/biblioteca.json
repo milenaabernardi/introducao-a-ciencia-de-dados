@@ -1,0 +1,22 @@
+{
+    "livros": [
+        {
+            "titulo": "Jogos Vorazes",
+            "autor": "Suzanne Collins",
+            "isbn": "978-8579800245",
+            "disponivel": false
+        }
+    ],
+    "usuarios": [
+        {
+            "nome": "Milena",
+            "cpf": "111.222.333-44",
+            "livros_emprestados": [
+                {
+                    "titulo": "Jogos Vorazes",
+                    "devolucao": "11/04/2026"
+                }
+            ]
+        }
+    ]
+}
